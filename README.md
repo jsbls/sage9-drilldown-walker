@@ -43,7 +43,7 @@ function f6_drill_menu_fallback($args)
 - To this: ```['helpers', 'setup', 'filters', 'navigation', 'admin']);```
 
 ## Fetching the Nav Menu
-- Open the file where you want to display the menu (`header.blade.php` or wherever you want)
+- Open the file where you want to display the menu (`header.blade.php` or wherever you want).
 - Add the following code:
 ```
 @php
