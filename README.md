@@ -6,7 +6,8 @@ _**Warning:** This only implements the Drilldown section on the Primary Navigati
 ## Creating a navigation.php file for our Walker Class
 - Create a new file named `navigation.php` inside the `src` folder.
 - Paste the following code:
-```<?php
+```
+<?php
 
 class F6_Drill_Menu_Walker extends Walker_Nav_Menu
 {
@@ -33,7 +34,8 @@ function f6_drill_menu_fallback($args)
     echo '<ul class="vertical menu" data-drilldown="">'.$fallback.'</ul>';
 }
 
-?>```
+?>
+```
 
 ## Adding navigation.php to functions.php
 - Open up `functions.php` on your theme's root folder and go to line 58.
